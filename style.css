@@ -17,3 +17,18 @@
        color:#807F86;
     }
 
+@media (max-width: 764Px) {
+    .footer-col-divider {
+        border-right: none !important;
+        border-bottom: 1.5px solid;
+        margin-bottom: 2rem;
+        
+}
+}
+
+@media (min-width: 764px) {
+    .footer-col-divider {
+        border-right: 1.5px solid;
+        border-bottom: none !important;
+    }
+}
