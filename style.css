@@ -71,7 +71,17 @@
     font-family: 'Bodoni Moda', serif;
     color: #3A3845;
 }
-  
+.history img{
+     aspect-ratio: 1/0.5;
+      object-fit: cover;
+    
+}
+.history .row
+{
+   background-color: var(--primary-color);
+}
+
+
 @media (max-width: 764Px) {
     .footer-col-divider {
         border-right: none !important;
@@ -86,4 +96,11 @@
         border-right: 1.5px solid;
         border-bottom: none !important;
     }
+    .reverse-row {
+        flex-direction: row-reverse !important;
+    }
+    .history img{
+     aspect-ratio: 1.8/1;
+     object-fit: cover;
+}
 }
