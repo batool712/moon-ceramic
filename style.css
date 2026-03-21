@@ -24,6 +24,19 @@
   
  }
 
+ .christmas-description
+ {
+    background-color: var(--primary-color);
+
+ }
+ .promo-title
+ {
+
+    font-family: 'Bodoni Moda', serif;
+    letter-spacing: 2px;
+  
+ }
+
   
 @media (max-width: 764Px) {
     .footer-col-divider {
