@@ -33,7 +33,7 @@
  {
 
     font-family: 'Bodoni Moda', serif;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
   
  }
  .product-card {
@@ -60,10 +60,13 @@
    
 }
 
-.promo-desc , .product-desc
+ .product-desc
 {
     color: #807F86;
 }
+.promo-desc
+{
+   color: #595667;}
 .title
 {
     margin-top: 80px !important;
@@ -87,8 +90,14 @@
         border-right: none !important;
         border-bottom: 1.5px solid;
         margin-bottom: 2rem;
+      
         
 }
+ .promo
+    {
+       margin-top: 15px;
+    }
+   
 }
 
 @media (min-width: 764px) {
