@@ -84,6 +84,20 @@
    background-color: var(--primary-color);
 }
 
+.signup
+ {
+    margin-top: 100px;
+ }
+ .sign-input::placeholder {
+    color:#595667;
+    font-size: 20px;
+}
+.sign-input 
+{
+    border-bottom:2px solid  #595667 !important;
+}
+.sign-btn{ border: 2px solid #595667 !important;
+}
 
 @media (max-width: 764Px) {
     .footer-col-divider {
@@ -99,6 +113,7 @@
     }
    
 }
+
 
 @media (min-width: 764px) {
     .footer-col-divider {
