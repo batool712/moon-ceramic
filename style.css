@@ -191,3 +191,15 @@
     color: white !important;
    
 }
+.text-brown {
+    color: #C69B7B;
+    font-weight: 500;
+    
+}
+
+
+.form-control {
+    border: 1.5px solid #000000;
+    border-radius: 0;
+    padding: 12px;
+}
