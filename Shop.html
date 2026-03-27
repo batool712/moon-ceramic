@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Moon Ceramic</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+ <nav class="navbar navbar-expand-lg bg-white border-bottom border-2">
+  <div class="container d-flex align-items-center ">
+    
+    <button class="navbar-toggler order-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <a class="navbar-brand mx-lg-0 m-auto order-2" href="#">
+      <img src="images/homeimg/logo.svg" alt="moon" width="90">
+    </a>
+
+    <div class="d-flex nav-icon gap-3 order-3 align-items-center">
+       <a href="#" class="text-dark position-relative"><i class="bi bi-cart3"></i></a>
+       
+       <div class="d-none d-lg-flex gap-3">
+         <a href="#" class="text-dark"><i class="bi bi-search"></i></a>
+         <a href="#" class="text-dark"><i class="bi bi-person"></i></a>
+         <a href="#" class="text-dark"><i class="bi bi-heart"></i></a>
+       </div>
+    </div>
+
+    <div class="collapse navbar-collapse order-4 order-lg-2" id="navbarNav">
+      <ul class="navbar-nav mx-auto text-center">
+        <li class="nav-item"><a class="nav-link px-3" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link px-3" href="#">Shop</a></li>
+        <li class="nav-item"><a class="nav-link px-3" href="#">About</a></li>
+        <li class="nav-item"><a class="nav-link px-3" href="#">Contact</a></li>
+         <div class="d-flex justify-content-center gap-4 d-lg-none  flex-column">
+                <a href="#" class="text-dark"><i class="bi bi-search"></i></a>
+                <a href="#" class="text-dark"><i class="bi bi-person"></i></a>
+                <a href="#" class="text-dark"><i class="bi bi-heart"></i></a>
+            </div>
+       
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<div class="container my-4">
+    <div class="row mb-5">
+        <div class="col-12">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb small bg-transparent p-0">
+                    <li class="breadcrumb-item"><a href="index.html" class="text-muted text-decoration-none">Home</a></li>
+                    <li class="breadcrumb-item active fw-bold " aria-current="page">Shop</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+   
+    <div class="row">
+    
+        <aside class="col-lg-3 pe-lg-5  d-none d-lg-block">
+            <h6 class="mb-3 fw-bold small">Showing 120 items</h6>
+            <hr class="mb-4">
+
+            <h6 class="filter-title">Category</h6>
+            <div class="filter-group mb-4">
+                <div class="form-check custom-check"><input type="checkbox" class="form-check-input" id="c1"><label class="form-check-label ms-2" for="c1">Dinnerware</label></div>
+                <div class="form-check custom-check"><input type="checkbox" class="form-check-input" id="c2"><label class="form-check-label ms-2" for="c2">Ceramic</label></div>
+                <div class="form-check custom-check"><input type="checkbox" class="form-check-input" id="c3"><label class="form-check-label ms-2" for="c3">Furniture</label></div>
+                <div class="form-check custom-check"><input type="checkbox" class="form-check-input" id="c4"><label class="form-check-label ms-2" for="c4">Decor Art</label></div>
+                <div class="form-check custom-check"><input type="checkbox" class="form-check-input" id="c5"><label class="form-check-label ms-2" for="c5">Gifts sets</label></div>
+            </div>
+            <hr>
+
+            <h6 class="filter-title">Price Range</h6>
+            <div class="filter-group mb-4 ">
+                <div class="form-check custom-check"><input type="checkbox" class="form-check-input" id="p1"><label class="form-check-label ms-2" for="p1">$0 - $10</label></div>
+                <div class="form-check custom-check"><input type="checkbox" class="form-check-input" id="p2"><label class="form-check-label ms-2" for="p2">$10 - $50</label></div>
+                <div class="form-check custom-check"><input type="checkbox" class="form-check-input" id="p3"><label class="form-check-label ms-2" for="p3">$50 - $100</label></div>
+                <div class="form-check custom-check"><input type="checkbox" class="form-check-input" id="p4"><label class="form-check-label ms-2" for="p4">$100-$200</label></div>
+                <div class="form-check custom-check"><input type="checkbox" class="form-check-input" id="p5"><label class="form-check-label ms-2" for="p5">> $ 200</label></div>
+            </div>
+            <hr>
+
+            <h6 class="filter-title">Color</h6>
+            <div class="d-flex gap-2 mb-4 flex-wrap">
+                <div class="color-swatch border" style="background-color: #ffffff;"></div>
+                <div class="color-swatch" style="background-color: #c48b61;"></div>
+                <div class="color-swatch" style="background-color: #c1d0c4;"></div>
+                <div class="color-swatch" style="background-color: #b45b5e;"></div>
+                <div class="color-swatch" style="background-color: #8b879a;"></div>
+            </div>
+            <hr>
+
+            <h6 class="filter-title">Tags</h6>
+            <div class="filter-group mb-4">
+                <div class="form-check custom-check"><input type="checkbox" class="form-check-input" id="t1"><label class="form-check-label ms-2" for="t1">Dinnerware</label></div>
+                <div class="form-check custom-check"><input type="checkbox" class="form-check-input" id="t2"><label class="form-check-label ms-2" for="t2">Ceramic</label></div>
+                <div class="form-check custom-check"><input type="checkbox" class="form-check-input" id="t3"><label class="form-check-label ms-2" for="t3">Furniture</label></div>
+                <div class="form-check custom-check"><input type="checkbox" class="form-check-input" id="t4"><label class="form-check-label ms-2" for="t4">Decor Art</label></div>
+                <div class="form-check custom-check"><input type="checkbox" class="form-check-input" id="t5"><label class="form-check-label ms-2" for="t5">Gifts sets</label></div>
+            </div>
+        </aside>
+
+        <main class="col-lg-9">
+            <div class="d-flex justify-content-between align-items-center mb-4 pb-2 border-bottom">
+                <div class="d-lg-none">
+                    <button class="btn p-0 fw-bold text-uppercase small" data-bs-toggle="offcanvas" data-bs-target="#mobileFilter">
+                        <i class="fa-solid fa-bars-staggered me-1"></i> Filter
+                    </button>
+                </div>
+                
+                   <div class="d-flex align-items-center ms-auto ">
+                    <span class="text-muted me-2 small  fw-bold">Sort by:</span>
+
+                     <div class="dropdown">
+                      <button class="btn p-0 border-0 d-flex align-items-center justify-content-between shadow-none fw-bold text-dark" 
+                        type="button" 
+                        data-bs-toggle="dropdown" 
+                       style="min-width: 100px;">
+            
+                      <span class="text-muted small">Name</span>
+                      <i class="fa-solid fa-chevron-down ms-2" style="font-size: 10px; color: #999;"></i>
+                     </button>
+
+                     <ul class="dropdown-menu dropdown-menu-end border-0 shadow-sm mt-2">
+                      <li><a class="dropdown-item small" href="#">Name</a></li>
+                      <li><a class="dropdown-item small" href="#">Price</a></li>
+                     </ul>
+                    </div>
+                    </div>
+                </div>
+
+            <div class="row row-cols-2 row-cols-md-3 g-4">
+
+                <div class="col">
+
+                    <div class="product-card">
+                     <img src="images/homeimg/ceramic.png" class="img-fluid mb-3" alt="Product Name">
+                     <h6 class="product-name text-uppercase">Small Ecru Ceramic Compote</h6>
+                     <p class="product-price fw-bold">$49.00</p>
+                     <p class="product-desc">Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit.</p>
+                     <button class=" add-to-cart-btn w-100 bg-transparent">ADD TO CART</button>
+                    </div >
+                </div>
+
+
+                <div class="col">
+
+                   <div class="product-card">
+                     <img src="images/homeimg/OpheliaVase.png" class="img-fluid mb-3" alt="Product Name">
+                     <h6 class="product-name text-uppercase">Rounded Dual Handled Vase</h6>
+                     <p class="product-price fw-bold">$49.00</p>
+                     <p class="product-desc">Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit.</p>
+                     <button class="add-to-cart-btn w-100 bg-transparent">ADD TO CART</button>
+                    </div>
+                </div>
+
+
+                <div class="col">
+          
+                    <div class="product-card">
+                      <img src="images/homeimg/poreclanplate.png" class="img-fluid mb-3" alt="Product Name">
+                      <h6 class="product-name text-uppercase">Porcelain Dinner Plate</h6>
+                      <p class="product-price fw-bold">$49.00</p>
+                      <p class="product-desc">Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit.</p>
+                      <button class=" add-to-cart-btn w-100 bg-transparent">ADD TO CART</button>
+                    </div>
+                </div>
+
+
+                <div class="col">
+
+                   <div class="product-card">
+                     <img src="images/homeimg/marin-blue.png" class="img-fluid mb-3" alt="Product Name">
+                    <h6 class="product-name text-uppercase">Marin White Dinner Plate</h6>
+                    <p class="product-price fw-bold">$49.00</p>
+                    <p class="product-desc">Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit.</p>
+                    <button class="add-to-cart-btn w-100 bg-transparent">ADD TO CART</button>
+                   </div>
+                </div>
+
+                <div class="col">
+
+                    <div class="product-card">
+                
+                <img src="images/homeimg/cremevase.png" class="img-fluid mb-3" alt="Product Name">
+                <h6 class="product-name text-uppercase">Tall Cream Ceramic Vase</h6>
+                <p class="product-price fw-bold">$49.00</p>
+                <p class="product-desc">Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit.</p>
+                <button class="add-to-cart-btn w-100 bg-transparent">ADD TO CART</button>
+                  </div>
+                </div>
+
+                <div class="col">
+          
+                    <div class="product-card">
+                      <img src="images/homeimg/mercer-low-bowl.png" class="img-fluid mb-3" alt="Product Name">
+                      <h6 class="product-name text-uppercase">Luana Bowl </h6>
+                      <p class="product-price fw-bold">$49.00</p>
+                      <p class="product-desc">Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit.</p>
+                      <button class="add-to-cart-btn w-100 bg-transparent">ADD TO CART</button>
+                    </div>
+                </div>
+
+
+                <div class="col">
+          
+                   <div class="product-card">
+                    <img src="images/homeimg/Ophelia Matte Natural Vase.png" class="img-fluid mb-3" alt="Product Name">
+                    <h6 class="product-name text-uppercase">Warrick White Vase 14"</h6>
+                    <p class="product-price fw-bold">$49.00</p>
+                    <p class="product-desc">Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit.</p>
+                    <button class=" add-to-cart-btn w-100 bg-transparent">ADD TO CART</button>
+                   </div>
+                </div>
+
+
+                <div class="col">
+          
+                  <div class="product-card">
+                    <img src="images/homeimg/Luana Bowl.png" class="img-fluid mb-3" alt="Product Name">
+                    <h6 class="product-name text-uppercase">Warrick White Vase 20</h6>
+                    <p class="product-price fw-bold">$49.00</p>
+                    <p class="product-desc">Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit.</p>
+                    <button class=" add-to-cart-btn w-100 bg-transparent">ADD TO CART</button>
+                  </div>
+                </div>
+
+
+                <div class="col">
+          
+                 <div class="product-card">
+                <img src="images/homeimg/Porcelain Dinner Plate.png" class="img-fluid mb-3" alt="Product Name">
+                <h6 class="product-name text-uppercase">Porcelain Dinner Plate</h6>
+                <p class="product-price fw-bold">$49.00</p>
+                <p class="product-desc">Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit.</p>
+                <button class=" add-to-cart-btn w-100 bg-transparent">ADD TO CART</button>
+                </div>
+             </div>
+                          
+             </div>
+
+            <nav aria-label="Page navigation" class="d-flex justify-content-end mt-5">
+              <ul class="pagination gap-2 border-0">
+                   <li class="page-item">
+                    <a class="page-link border-0 text-dark p-0 d-flex align-items-center justify-content-center" href="#" style="width:35px; height:35px;">
+                     <i class="fa-solid fa-chevron-left small"></i>
+                     </a>
+                   </li>
+
+                    <li class="page-item">
+                    <a class="page-link bg-dark text-white border-0 d-flex align-items-center justify-content-center" href="#" style="width:35px; height:35px;">1</a>
+                    </li>
+
+                   <li class="page-item">
+                     <a class="page-link bg-white text-dark border d-flex align-items-center justify-content-center" href="#" style="width:35px; height:35px; border-color: #ddd !important;">2</a>
+                   </li>
+
+                    <li class="page-item">
+                     <a class="page-link bg-white text-muted border-0 d-flex align-items-center justify-content-center" href="#" style="width:35px; height:35px;">3</a>
+                    </li>
+    
+                    <li class="page-item">
+                     <a class="page-link bg-white text-muted border-0 d-flex align-items-center justify-content-center" href="#" style="width:35px; height:35px;">4</a>
+                    </li>
+
+                   <li class="page-item">
+                     <a class="page-link border-0 text-dark p-0 d-flex align-items-center justify-content-center" href="#" style="width:35px; height:35px;">
+                     <i class="fa-solid fa-chevron-right small"></i>
+                     </a>
+                   </li>
+                </ul>
+            </nav>
+        </main>
+    </div>
+</div>
+<footer class="footer-section py-5 text-white" style="background-color: #3b3a43;">
+    <div class="container ">
+        <div class="row border-bottom ">
+            
+            <div class="col-md-4 pe-md-5 pb-5 justify-content-center footer-col-divider text-white-75 ">
+                <img src="images/homeimg/whitelogo.png" alt="Moon" class="mb-3">
+                <p class="small text-white-50">Lorem ipsum dolor sit amet consectetur <br> adipiscing elit aliquam mauris sed ma</p>
+                <button class="btn btn-outline-light rounded-0 px-4 mt-2 shadow-none">GET STARTED &rarr;</button>
+            </div>
+
+            <div class="col-md-8  ps-md-5 pb-5">
+                <div class="row ">
+                    <div class="col-md-4 col-6">
+                        <h6 class="text-uppercase fw-bold mb-4 small">About Us</h6>
+                        <ul class="list-unstyled small text-white-50 lh-lg">
+                            <li>Mission</li>
+                            <li>Our team</li>
+                            <li>Awards</li>
+                            <li>Testimonials</li>
+                            <li>Privacy policy</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-6">
+                        <h6 class="text-uppercase fw-bold mb-4 small">Services</h6>
+                        <ul class="list-unstyled small text-white-50 lh-lg">
+                            <li>Web design</li>
+                            <li>Web development</li>
+                            <li>Mobile design</li>
+                            <li>UI/UX design</li>
+                            <li>Branding design</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h6 class="text-uppercase fw-bold mb-4 small">Portfolio</h6>
+                        <ul class="list-unstyled small text-white-50 lh-lg">
+                            <li>Corporate websites</li>
+                            <li>E-commerce</li>
+                            <li>Mobile apps</li>
+                            <li>Landing pages</li>
+                            <li>UI/UX projects</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row pt-4">
+            <div class="col-12 text-center light-gray">
+               Copyright © 2023 Moon | All Rights Reserved  | <span class="border-bottom text-white-25"> Terms and Conditions</span> | <span class="border-bottom text-white-25">Privacy Policy</span>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
